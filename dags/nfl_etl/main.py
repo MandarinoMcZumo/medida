@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import requests
 import json
 from nfl_etl.utils.functions import fetch_events, fetch_ranking, build_ranking_df, build_events_df, build_dashboard, \
-    update_dashboard, call_external_api
+    update_dashboard
 from nfl_etl.log import logger
 
 def execute_etl(custom_run_uuid):
